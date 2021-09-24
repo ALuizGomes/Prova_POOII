@@ -75,12 +75,12 @@ var Compras = /** @class */ (function () {
             return this.precoTotal();
         }
         else {
-            return this.precoTotal() + this.desconto();
+            return this.precoTotal() - this.desconto();
         }
     };
     return Compras;
 }());
-var compras = new Compras('Nescau', 2, 7);
+var compras = new Compras('Nescau', 10, 20);
 console.log(compras);
 // try{
 //     compras.produtos = 'Celular',

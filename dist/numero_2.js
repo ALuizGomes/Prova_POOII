@@ -56,5 +56,5 @@ var ConversaoDeUnidadesDeTempo = /** @class */ (function () {
     };
     return ConversaoDeUnidadesDeTempo;
 }());
-var conversao = ConversaoDeUnidadesDeTempo.conversaoMpS(10);
+var conversao = ConversaoDeUnidadesDeTempo.conversaoApD(10);
 console.log(conversao);

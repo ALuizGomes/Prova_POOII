@@ -60,5 +60,5 @@ class ConversaoDeUnidadesDeTempo{
     }
 }
 
-const conversao = ConversaoDeUnidadesDeTempo.conversaoMpS(10)
+const conversao = ConversaoDeUnidadesDeTempo.conversaoApD(10)
 console.log(conversao)
